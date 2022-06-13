@@ -2,18 +2,18 @@ package oop_exercises.author_book;
 
 public class Book {
    private String name;
-   private Author author;
+   private Author[] author;
    private double price;
    private int qty;
 
-   public Book(String name, Author author, double price) {
+   public Book(String name, Author[] author, double price) {
       this.name = name;
       this.author = author;
       this.price = price;
       this.qty = 0;
    }
 
-   public Book(String name, Author author, double price, int qty) {
+   public Book(String name, Author[] author, double price, int qty) {
       this.name = name;
       this.author = author;
       this.price = price;
@@ -24,7 +24,7 @@ public class Book {
       return this.name;
    }
 
-   public Author getAuthor() {
+   public Author[] getAuthor() {
       return this.author;
    }
 
@@ -45,7 +45,8 @@ public class Book {
    }
 
    public String toString() {
-      return "Book [name=" + name + " , " + author.toString() + " , price=" + price + " , qty=" + qty + "] ";
+      return "Book [name=" + name + " , authors = { " + author.toString() + " , price=" + price + " , qty=" + qty
+            + "] ";
 
    }
 
