@@ -52,13 +52,11 @@ public class Rectangle extends Shape {
 
    @Override
    double getRadius() {
-      // TODO Auto-generated method stub
       return 0;
    }
 
    @Override
    double getSide() {
-      // TODO Auto-generated method stub
       return 0;
    }
 }

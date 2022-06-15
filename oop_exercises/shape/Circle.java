@@ -51,13 +51,11 @@ public class Circle extends Shape { // Save as "Circle.java"
 
    @Override
    double getLength() {
-      // TODO Auto-generated method stub
       return 0;
    }
 
    @Override
    double getSide() {
-      // TODO Auto-generated method stub
       return 0;
    }
 }
